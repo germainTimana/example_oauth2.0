@@ -1,2 +1,37 @@
-# example_oauth2.0
-implementacion basica desde el cliente de un servicio ouath 2
+Estructura GRANT
+
+[
+   'AUTHORIZATION_CODE_LENGTH',
+   'ERROR_RESPONSE_FRAGMENT',
+   'GRANT_TYPE',
+   'RESPONSE_TYPES',
+   'TOKEN_ENDPOINT_AUTH_METHODS',
+   'TOKEN_ENDPOINT_HTTP_METHODS',
+   'TOKEN_RESPONSE_HEADER',
+   '__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_hooks', 
+   'authenticate_token_endpoint_client',
+   'authenticate_user',
+   'check_authorization_endpoint',
+   'check_token_endpoint',
+   'client',
+   'create_authorization_response',
+   'create_token_response',
+   'delete_authorization_code',
+   'execute_hook',
+   'generate_authorization_code',
+   'generate_token',
+   'prompt',
+   'query_authorization_code',
+   'redirect_uri',
+   'register_hook',
+   'request',
+   'save_authorization_code',
+   'save_token',
+   'server',
+   'validate_authorization_redirect_uri',
+   'validate_authorization_request',
+   'validate_consent_request',
+   'validate_no_multiple_request_parameter',
+   'validate_requested_scope',
+   'validate_token_request'
+]
